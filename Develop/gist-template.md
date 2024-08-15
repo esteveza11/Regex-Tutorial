@@ -1,10 +1,14 @@
 # Title (replace with your title)
 
-Introductory paragraph (replace this with your text)
+A regular expression (regex) is a powerful tool used to search for patterns within strings. In this tutorial, we will break down a regex that matches valid email addresses.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+This tutorial focuses on the regular expression (regex) used to validate email addresses. The regex in question is:
+
+```regex
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+
 
 ## Table of Contents
 
@@ -37,4 +41,5 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+I am a web development student passionate about regex and pattern matching in code. Visit my [GitHub](https://github.com/esteveza11) for more projects.
+
